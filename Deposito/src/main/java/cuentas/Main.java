@@ -31,7 +31,7 @@ public class Main {
         }
     }
 
-    public void operativa_cuenta(String nombre, int cantidad, float saldo) {
+    public void operativa_cuenta(float cantidad) {
         CCuenta cuenta1 = null;
         double saldoActual;
         saldoActual = cuenta1.estado();
